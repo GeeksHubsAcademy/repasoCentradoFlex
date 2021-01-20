@@ -1,0 +1,97 @@
+
+.maestro{
+    height: 30em;
+    width: 23em;
+
+    background-color: green;
+
+    /*Los padres tienen display flex y flex direction*/
+    display: flex;
+    flex-direction: column;
+}
+
+.hijo1 {
+    width: 23em;
+    height: 15em;
+
+    background-color: grey;
+
+    display:flex;
+    flex-direction: row;
+
+}
+
+.nieto1{
+    width: 7.6em;
+    height: 15em;
+    background-color: blue;
+}
+
+.nieto2{
+    width: 7.8em;
+    height: 15em;
+    background-color: red;
+}
+
+.nieto3{
+    width: 7.6em;
+    height: 15em;
+    background-color: yellow;
+
+    display:flex;
+    flex-direction: column;
+}
+
+.bisnieto1{
+    width: 7.6em;
+    height: 7.5em;
+    background-color: purple;
+
+}
+
+.bisnieto2{
+    width: 7.6em;
+    height: 7.5em;
+    background-color:turquoise;
+
+    border-radius: 50%;
+    
+    transition: 0.5s
+}
+
+.bisnieto2:hover{
+
+    width: 5em;
+    height: 5em;
+
+    background-color: orange;
+
+    transition: 0.5s;
+}
+
+
+.hijo2 {
+    width: 23em;
+    height: 15em;
+
+    background-color: brown;
+}
+
+.maestro2{
+    width: 25em;
+    height: 20em;
+    border: 0.5em solid black;
+
+    /*Centrado absoluto en el componente padre*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pantalla{
+
+    width: 10em;
+    height: 8em;
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,0.7010154403558299) 0%, rgba(70,159,123,0.7682423311121324) 39%, rgba(255,255,255,1) 100%);  
+}
